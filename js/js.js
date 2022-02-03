@@ -1,5 +1,5 @@
 document.addEventListener("click", function () {
-  document.querySelector("a-text").setAttribute("visible", false);
+  document.querySelector(".sound").setAttribute("display", none);
 });
 
 function playing(index) {
