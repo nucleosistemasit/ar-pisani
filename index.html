@@ -3,10 +3,11 @@
   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
   <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <script src="js/js.js"></script>
 
   <body style="margin : 0px; overflow: hidden;">
 
-    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;" embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;" embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;" sound="src: #take; on: click; loop: false; volume: 0.8; rolloffFactor: 0">
 
       <a-assets> 
         <!-- <a-asset-item id="boneco" src="https://raw.githubusercontent.com/nucleosistemasit/ar_randon_teste/main/3d/WorkFemale.gltf"></a-asset-item> -->
@@ -20,6 +21,8 @@
 
       <a-camera>
       </a-camera>
+
+      <a-text value="Clique para ouvir" position="0 2 -3" align="center"></a-text>
 
 <!--<a class="link" href="https://focco.typeform.com/to/DS5kncLx"></a> -->
 
