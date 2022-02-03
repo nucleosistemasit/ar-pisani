@@ -11,14 +11,11 @@
       <a-assets> 
         <!-- <a-asset-item id="boneco" src="https://raw.githubusercontent.com/nucleosistemasit/ar_randon_teste/main/3d/WorkFemale.gltf"></a-asset-item> -->
         <a-asset-item id="asiatico" src="https://raw.githubusercontent.com/nucleosistemasit/ar-pisani/main/3d/asiatico.gltf"></a-asset-item>        
-        <audio id="take" src="audio/take.mp3"></audio>
+        <audio id="take" src="audio/take.mp3" preload="auto"></audio>
       </a-assets>
 
       <a-marker type="barcode" value="6">
-        <a-entity id="boneco_4" gltf-model="#asiatico" position="0 0 3" rotation="-90 0 0" scale="3 3 3" animation-mixer 
-          sound="src: #take;
-                  on: click;
-                  volume: 1"></a-entity>
+        <a-entity id="boneco_4" gltf-model="#asiatico" position="0 0 3" rotation="-90 0 0" scale="3 3 3" sound="src: #take; on: click" animation-mixer></a-entity>
       </a-marker>
 
       <a-camera>
