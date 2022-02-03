@@ -6,8 +6,8 @@
     height: 90%;
 }
 
-.link {
-z-index: 999;
+.sound {
+    z-index: 999;
     display: block;
     position: relative;
     margin: 0 auto;
@@ -17,10 +17,6 @@ z-index: 999;
     color: blue;
     top: calc(100% - 50px);
     text-align: center;
-    background-image: url(../imgs/link.png);
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
 }
 
 #arjsDebugUIContainer {
