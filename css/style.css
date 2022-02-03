@@ -1,0 +1,32 @@
+.h-10 {
+    height: 10%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.link {
+z-index: 999;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    font-size: 15pt;
+    color: blue;
+    top: calc(100% - 50px);
+    text-align: center;
+    background-image: url(../imgs/link.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#arjsDebugUIContainer {
+    display: none !important;
+}
+
+.a-enter-vr {
+    display: none !important;
+}
